@@ -7,5 +7,5 @@
     "theme_color": "#db4938",
     "orientation": "portrait-primary",
     "description": "Testing installable PWAs",
-    "icons": [{"sizes":"192x192","src":"images/mail_icon.png","type":"image/png"}]
+    "icons": [{"sizes":"176x176","src":"images/uc-retina.png","type":"image/png"}]
 }
