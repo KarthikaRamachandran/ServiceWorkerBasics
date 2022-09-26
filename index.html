@@ -3,14 +3,16 @@
     <title>Service/Web Worker Example</title>
     <link rel="manifest" href="myswapp.webmanifest" />
     <link rel="stylesheet" href="mystyles.css" />
+    <link rel="stylesheet" href="mydummystyles.css" />
 </head>
 <body>
 <h3 style="color:maroon;">Service Workers</h3>
 <label>User Name: </label>
-<input type="text" id="userName" placeholder="Enter your name" />
+<input type="text" id="userName" class="zmicinput" placeholder="Enter your name" />
 <label>Email ID:</label>
-<input type="email" id="emailId" placeholder="Enter your Email" />
-<button id="myBtn">Submit</button>
+<input type="email" id="emailId" class="ztextbox" placeholder="Enter your Email" />
+<button id="myBtn" class="zmicbutton">Submit</button>
+<button class="zbutton">Cancel</button>
 <div id="succMsg" style="color:green;padding-top:20px;"></div>
 <script>
     // if(window.Worker){

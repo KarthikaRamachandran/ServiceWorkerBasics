@@ -1,4 +1,4 @@
-.zmicinput{
+.ztextbox{
     width:250px;
     border-radius: 2;
     display: block;
@@ -8,7 +8,7 @@
     border: 1px solid gray;
     height: 32px;
 }
-.zmicbutton {
+.zbutton {
     background-color: #338984;
     border: none;
     width: 100px;
