@@ -1,5 +1,5 @@
 const cacheName = "karthi_cache";
-const cacheAssets = ["index.html","mystyles.css"];
+const cacheAssets = ["index.html","css/mystyles.css","css/mydummystyles.css"];
 
 self.addEventListener("install", function(ev){
     console.log("Installing...");
