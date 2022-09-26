@@ -2,12 +2,6 @@
     "name": "Test PWA",
     "short_name": "karthi_test",
     "description": "Testing installable PWAs",
-    "icons": [{
-        "src": "images/uc-retina.png",
-        "sizes":"72*72"
-    },{
-        "src": "images/uc-normal.png",
-        "sizes":"32*32"
-    }],
+    "icons": [{"sizes":"192x192","src":"images/mail_icon.png","type":"image/png"}],
     "start_url": "/index.html"
 }
