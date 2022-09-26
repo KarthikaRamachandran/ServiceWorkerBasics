@@ -1,0 +1,10 @@
+{
+    "name": "Test PWA",
+    "short_name": "karthi_test",
+    "description": "Testing installable PWAs",
+    "icons": [{
+        "src": "images/uc-retina.png",
+        "sizes":"176 × 176",
+        "type":"image/png"
+    }]
+}
