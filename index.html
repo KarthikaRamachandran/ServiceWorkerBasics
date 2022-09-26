@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <title>Service/Web Worker Example</title>
+    <link rel="stylesheet" href="mystyles.css" />
+</head>
+<body>
+<h3 style="color:maroon;">Service Workers</h3>
+<label>User Name: </label>
+<input type="text" id="userName" placeholder="Enter your name" />
+<label>Email ID:</label>
+<input type="email" id="emailId" placeholder="Enter your Email" />
+<button id="myBtn">Submit</button>
+<div id="succMsg" style="color:green;padding-top:20px;"></div>
+<script>
+    // if(window.Worker){
+    //     const myTestWorker = new Worker("test.js");
+    //     document.getElementById("myBtn").addEventListener("click", function(){
+    //         myTestWorker.postMessage([userName.value, emailId.value]);
+    //     });
+    //     myTestWorker.onmessage = function(event){
+    //         document.getElementById("succMsg").textContent = event.data;
+    //         window.setTimeout(function(){
+    //             document.getElementById("succMsg").textContent = "";
+    //         },1000);
+    //     }
+    // }
+    if (navigator.serviceWorker) {
+        navigator.serviceWorker.register('serviceworker_test.js')
+        .then(reg => console.log("Service Worker Registered Successfully"))
+        .catch(err => console.error(`Service Worker Registration Failed: ${err}`));
+    } else {
+        console.log("Service Worker is not supported by this browser.");
+    }
+</script>
+</body>
+</html>
