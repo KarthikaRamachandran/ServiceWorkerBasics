@@ -4,7 +4,6 @@
     "description": "Testing installable PWAs",
     "icons": [{
         "src": "images/uc-retina.png",
-        "sizes":"176 × 176",
-        "type":"image/png"
+        "sizes":"48*48"
     }]
 }
