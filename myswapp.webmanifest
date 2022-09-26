@@ -3,7 +3,7 @@
     "short_name": "karthi_test",
     "description": "Testing installable PWAs",
     "icons": [{
-        "src": "images/uc-retina.png",
-        "sizes":"48*48"
+        "src": "images/uc-normal.png",
+        "sizes":"88*88"
     }]
 }
