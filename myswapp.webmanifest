@@ -4,7 +4,10 @@
     "description": "Testing installable PWAs",
     "icons": [{
         "src": "images/uc-retina.png",
-        "sizes":"32*32"
+        "sizes":"176*176"
+    },{
+        "src": "images/uc-normal.png",
+        "sizes":"88*88"
     }],
     "start_url": "/index.html"
 }
