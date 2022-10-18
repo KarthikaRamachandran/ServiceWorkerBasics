@@ -1,5 +1,6 @@
 const cacheName = "karthi_cache";
-const cacheAssets = ["index.html","css/mystyles.css","css/mydummystyles.css"];
+const cacheAssets = ["index.html","css/mystyles.css","css/mydummystyles.css","js/index.js"];
+const version = "0.0.1"; // updating this version will update our PWA.
 
 self.addEventListener("install", function(ev){
     console.log("Installing...");

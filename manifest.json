@@ -1,6 +1,6 @@
 {
     "name": "Test PWA",
-    "short_name": "Kar_PWA",
+    "short_name": "Yali_PWA",
     "start_url": "index.html",
     "display": "standalone",
     "background_color": "#fdfdfd",

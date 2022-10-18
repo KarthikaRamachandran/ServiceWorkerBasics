@@ -1,18 +1,11 @@
-.zmicinput{
-    width:250px;
-    border-radius: 2;
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    border: 1px solid gray;
-    height: 32px;
+.yali__table{
+    border: 1px solid black;
+    border-collapse: collapse;
 }
-.zmicbutton {
-    background-color: #338984;
-    border: none;
-    width: 100px;
-    height: 30px;
-    border-radius: 8px;
+.yali__table td{
+    border: 1px solid #eaeaea;
+}
+.yali__table thead{
+    background: black;
     color: white;
 }
