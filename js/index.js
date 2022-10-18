@@ -7,16 +7,16 @@
         item: "Setting Up Automatic Test Suite."
     },{
         name: "Bharathi",
-        item: "Learning Lit HTML"
+        item: "Learning Lit HTML."
     },{
         name: "Ganapathi",
-        item: "Table Component Issue Fix"
+        item: "Table Component Issue Fix."
     },{
         name: "Haressh",
-        item: "Getting Started Page Creation"
+        item: "Getting Started Page Creation."
     },{
         name: "Ranjitha",
-        item: "Table Component Issue Fix"
+        item: "Table Component Issue Fix."
     }];
     document.addEventListener("DOMContentLoaded", function(){
         let tbodyEle = document.getElementsByTagName("tbody"),
