@@ -19,7 +19,14 @@
 <script>
     if (navigator.serviceWorker) {
         navigator.serviceWorker.register('serviceworker_test.js')
-        .then(reg => console.log("Service Worker Registered Successfully"))
+        .then(reg => {
+            reg.onupdatefound = function(){
+                if(window.confirm("Details Updated. Refresh the page?")){
+                    location.reload();
+                }
+            }
+            console.log("Service Worker Registered Successfully")
+        })
         .catch(err => console.error(`Service Worker Registration Failed: ${err}`));
     } else {
         console.log("Service Worker is not supported by this browser.");
