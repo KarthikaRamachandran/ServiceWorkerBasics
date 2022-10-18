@@ -1,7 +1,7 @@
 (function(){
     let workDetails = [{
         name: "Arun Sankar Thirunavukkarasu",
-        item: "Table Component CSS revamping in BEM."
+        item: "Table Component CSS revamping in BEM Methodology."
     },{
         name: "Balaji",
         item: "Setting Up Automatic Test Suite."
