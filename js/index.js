@@ -7,16 +7,16 @@
         item: "Setting Up Automatic Test Suite."
     },{
         name: "Bharathi",
-        item: "Learning Lit HTML."
+        item: "Learning ARIA Roles to use in Table component."
     },{
         name: "Ganapathi",
-        item: "Table Component Issue Fix."
+        item: "Table Component Row Virtualization Behavior Implementation."
     },{
         name: "Haressh",
         item: "Getting Started Page Creation."
     },{
         name: "Ranjitha",
-        item: "Table Component Issue Fix."
+        item: "Table Component Issue Fix & Column Virtualization Behavior Implementation."
     }];
     document.addEventListener("DOMContentLoaded", function(){
         let tbodyEle = document.getElementsByTagName("tbody"),
