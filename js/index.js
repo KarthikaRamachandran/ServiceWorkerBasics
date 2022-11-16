@@ -1,22 +1,22 @@
 (function(){
     let workDetails = [{
         name: "Arun Sankar Thirunavukkarasu",
-        item: "Table Component CSS revamping in BEM Methodology."
+        item: "Design for simple app & Table Component CSS revamping in BEM Methodology."
     },{
         name: "Balaji",
-        item: "Setting Up Automatic Test Suite."
+        item: "Writing Test Cases to cover all plugins."
     },{
         name: "Bharathi",
-        item: "Learning ARIA Roles to use in Table component."
+        item: "Assigning ARIA Roles to UI controls present inside Table.ie) Pagination, Filter"
     },{
         name: "Ganapathi",
-        item: "Table Component Row Virtualization Behavior Implementation."
+        item: "Analyzing DataTables Library."
     },{
         name: "Haressh",
-        item: "Getting Started Page Creation."
+        item: "Preparing content for the simple demo App."
     },{
         name: "Ranjitha",
-        item: "Table Component Issue Fix & Column Virtualization Behavior Implementation."
+        item: "Ember mickey component issue fixing & Analyzing Lyte framework's plugins."
     }];
     document.addEventListener("DOMContentLoaded", function(){
         let tbodyEle = document.getElementsByTagName("tbody"),
